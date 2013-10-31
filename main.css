@@ -1,0 +1,53 @@
+body {
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+#wrapper {
+	width:75%;
+	margin:20px auto;
+	padding:20px;
+	border:1px solid #ccc;
+}
+
+h1 {
+	color:#005baa;
+	font-weight:normal;
+	margin:5px 0;
+}
+
+.announcements ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.announcements li {
+	display:block;
+	padding:0 0 20px 0;
+}
+
+h2.title {
+	margin:0px;
+	font-size:1em;
+}
+.description {
+	font-size:0.9em;
+	display:block;
+	margin-bottom:5px;
+}
+
+.filters a {
+	display:inline-block;
+	padding:5px 10px;
+	background:#005baa;
+	color:#fff;
+	text-decoration:none;
+}
+.filters a:hover,
+.filters a.active {
+	background:#222;
+}
+
+.counter {
+	padding:10px 0;
+	font-size:0.9em;
+}
